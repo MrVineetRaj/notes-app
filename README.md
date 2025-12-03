@@ -1,4 +1,4 @@
-# Lyzr Notes Application
+#  Notes Application
 
 A full-stack notes application with AI-powered summarization capabilities, built with Next.js frontend and FastAPI backend.
 
@@ -232,10 +232,6 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 1. **Clone the repository**
 
-```bash
-git clone <repository-url>
-cd lyzr
-```
 
 2. **Backend Setup**
 
@@ -303,7 +299,6 @@ console.log(result.summary);
 ## 🏗️ Project Structure
 
 ```
-lyzr/
 ├── next-app/          # Frontend Next.js application
 │   ├── components/    # UI components (carousel, charts, etc.)
 │   ├── app/          # Next.js app directory

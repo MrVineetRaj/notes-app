@@ -6,14 +6,14 @@ import httpx
 from fastapi import FastAPI, HTTPException, status
 from fastapi.responses import JSONResponse, PlainTextResponse
 
-from .models import (
+from models import (
     CreateNoteRequest,
     Note,
     SummaryRequest,
     SummaryResponse,
 )
-from .storage import NOTES
-from .llm_clients import summarize_with_openai, summarize_with_gemini
+from storage import NOTES
+from llm_clients import summarize_with_openai, summarize_with_gemini
 
 
 app = FastAPI(title="Notes FastAPI backend")
